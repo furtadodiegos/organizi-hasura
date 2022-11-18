@@ -23,3 +23,5 @@
 #           # hasura migrate create init --from-server --endpoint ${{ secrets.HASURA_ENDPOINT }} --admin-secret ${{ secrets.HASURA_ADMIN_SECRET }}
 #           hasura migrate apply --endpoint ${{ secrets.HASURA_ENDPOINT }} --admin-secret ${{ secrets.HASURA_ADMIN_SECRET }} --skip-execution --database-name ${{ secrets.HASURA_DATABASE }}
 #           hasura metadata export --endpoint ${{ secrets.HASURA_STG_ENDPOINT }} --admin-secret ${{ secrets.HASURA_STG_ADMIN_SECRET }}
+
+hasura metadata export --endpoint https://dev-organizi.hasura.app --admin-secret IXDDusqkdPBb0h8TmtMZFEpoUKHwRk70OI2Ah1JQjkhDQzPgA3bFVegQfgqPjGjJ
